@@ -1,0 +1,469 @@
+@font-face {
+	font-family: "Lato";
+	src: url("https://fonts.googleapis.com/css?family=Lato");
+}
+.global {
+	font-family: 'Lato', sans-serif;
+	display: flex;
+	width: 1140px;
+	height: 1462px;
+	flex-flow: row wrap;
+	align-content: center;
+	margin: auto;
+	margin-bottom: 75px;
+}
+
+.menu {
+	width: 290px;
+	height: 852px;
+	margin-top: 64px;
+	margin-left: 119px;
+	margin-right: 38px;
+	margin-bottom: 43px;
+}
+.logo {
+	width: 135px;
+	height: 124px;
+	background-color: #9E2084;
+	border: 5px solid #CCB3A6;
+}
+
+.titlelogo {
+	color: #C3CBCF;
+	font-family: 'Lato', sans-serif;
+	font-size: 50px;
+	text-align: left;
+	margin: 30px;
+	font-weight: 400;
+	line-height: 65px;
+
+}
+
+.nav {
+	background-color: #316F3F;
+	align-items: center;
+	margin-top: 31px;
+	width: 290px;
+	height: 624px;
+}
+
+.rando {
+	width: 270px;
+	height: 188px;
+	border: 10px dashed #FFFFFF;
+}
+
+.titlenav {
+    color: #FFFFFF;
+	font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33px;
+	margin-left: 49px;
+	margin-top:88px;
+    text-align: left;
+}
+
+.pilo {
+	width: 270px;
+	height: 188px;
+	border: 10px solid #CCB3A6;
+}
+
+.buttonpilo {
+	width: 69px;
+	height: 99px;
+	background-color: #13CE66;
+	border: none;
+	color: white;
+	position: relative;
+	bottom: 100px;
+	left: 228px;
+}
+
+.titlebuttonpilo {
+	font-size: 45px;
+	position: relative;
+	bottom: 24px;
+}
+
+.alpi {
+	width: 270px;
+	height: 188px;
+	border: 10px dashed #FFFFFF;
+}
+
+.article {
+	width: 666px;
+	height: 643px;
+	background-color: #13CE66;
+	border: 5px solid #EFF2F7;
+	margin-top: 198px;
+	margin-bottom: 22px;
+}
+
+.containerpictitle {
+	background-color: #FFFFFF;
+	width: 426px;
+	height: 265px;
+	left: 123px;
+	top: 19px;
+	position: relative;
+}
+
+.Simplonimg {
+	width: 232px;
+	height: 174px;
+	margin-left: 96px;
+	margin-top: 19px;
+	border:2px solid white;
+	border-radius: 32px;
+}
+.bluecontainer {
+	background-color: #20759E;
+	width: 385px;
+	height: 32px;
+	align-items: center;
+	margin-left: 18px;
+	margin-top: 12px;
+	border: 5px solid #CCB3A6;
+}
+
+.titlebluecontainer {
+	color: #C3CBCF;
+    font-family: Lato;
+    font-size: 26px;
+    text-align: center;
+	bottom: 15px;
+	position: relative;
+}
+
+.txtarticle {
+	color: #343F4B;
+	margin: auto;
+	font-size: 26px;
+	letter-spacing: 4px;
+    line-height: 31px;
+	line-spacing: 33px;
+    width: 567px;
+	text-align: center;
+	top: 30px;
+	position: relative;
+}
+
+.bot {
+	width: 1015px;
+	height: 504px;
+	justify-content: left;
+	background-color: #13CE66;
+	margin-left: 105px;
+	margin-top: 25px;
+	border: 5px solid #CCB3A6;
+}
+
+.jorgeimg {
+	width: 405.44px;
+	height: 302px;
+	right: 53px;
+	bottom: 60px;
+	position: relative;
+	border: 10px solid #CCB3A6;
+}
+
+.buttontxtcontainer {
+	display: flex;
+}
+
+.txtjorge {
+	color: #020305;
+	font-size: 26px;
+	line-height: 33px;
+	width: 477px;
+	text-align: right;
+	bottom: 340px;
+	left: 505px;
+	position: relative;
+}
+
+.buttoninfo {
+	width: 265px;
+	height: 50px;
+	border: 1px solid #8492A6;
+    border-radius: 5px;
+	line-spacing: 62px;
+	position: relative;
+	left: 245.5px;
+	top: 47.5px;
+	background-color: white;
+}
+
+.buttontitle {
+	width: 180px;
+	margin-top: 12.5px;
+	font-size: 18px;
+	color: #8492A6;
+}
+.imgarrow {
+	width: 16.72;
+	height :10.75;
+	position: relative;
+	bottom: 35px;
+	left: 105px;
+}
+
+.buttoninfomobile {
+	width: 265px;
+	height: 50px;
+	border: 1px solid #8492A6;
+    border-radius: 5px;
+	line-spacing: 62px;
+	background-color: white;
+	display: none;
+}
+
+
+@media all and (max-width: 1200px) {
+	.global {
+		width: 1440px;
+		height: 1692px;
+	}
+	.menu {
+		display: flex;
+		flex-direction: raw;
+		width: 1020px;
+		height: 154px;
+		margin-top: 83px;
+		margin-left: 210px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+	}
+	.logo {
+	}
+	.nav {
+		display: flex;
+		width: 870px;
+		height: 134px;
+		margin-top: 0px;
+		flex-basis: 270px;
+	}
+	.rando {
+		height: 114px;
+	}
+	.pilo {
+		height: 114px;
+	}
+
+	.alpi {
+		height: 114px;
+	}
+
+	.titlenav {
+		margin-top: 40px;
+		margin-left: 37px;
+	}
+	
+	.buttonpilo {
+	position: relative;
+	bottom: 91px;
+	left: 233px;
+	}
+
+	.article {
+		height: 653px;
+		width: 1020px;
+		margin-top: 10px;
+		margin-bottom: 85px;
+		margin-left: 210px;
+	}
+
+	.containerpictitle {
+		left: 281px;
+		top: 62px;
+		position: relative;
+	}
+	
+	.txtarticle {
+		line-spacing: 33px;
+		font-size: 30px;
+		width: 964px;
+		height: 221px;
+		top: 100px;
+		position: relative;
+	}
+	.bot {
+		margin-left: 210px;
+	}
+
+	.jorgeimg {
+		width: 293px;
+		height: 292px;
+	}
+
+	.txtjorge {
+		width: 700px;
+		height: 280px;
+		text-align: right;
+		bottom: 300px;
+		left: 280px;
+		position: relative;
+	}
+	.buttoninfo {
+		position: relative;
+		left: -27px;
+		top: 30px;
+	}
+
+	.buttoninfomobile {
+		display: none;
+	}
+}
+
+@media all and (max-width: 1000px) {
+	.global {
+		margin-top: 0px;
+		margin-bottom: 0px;
+		margin-left:0px;
+		margin-right: 0px;
+		align-items: left;
+		width: 320px;
+		height: 3013px;
+	}
+
+	.menu {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		width: 254px;
+		height: 393px;
+	}
+
+	.logo {
+		width: 84px;
+		height:84px;
+		margin-bottom: 45px;
+	}
+
+	.titlelogo {
+		font-size: 25px;
+		text-align: center;
+		position: relative;
+		bottom: 20px;
+		right: 12px;
+	}
+
+	.nav {
+		flex-direction: column;
+		width: 254px;
+		height: 195px;
+	}
+
+	.rando {
+		height: 65px;
+		width: 234px;
+	}
+
+	.pilo {
+		height: 65px;
+		width: 234px;
+	}
+
+	.alpi {
+		height: 65px;
+		width: 234px;
+	}
+
+	.titlenav {
+		font-size: 23px;
+		position: relative;
+		bottom: 18px;
+		right: 10px;
+	}
+
+	.buttonpilo {
+		width: 41px;
+		height: 45px;
+		position: relative;
+		left: 220px;
+		bottom: 87px;
+	}
+
+	.titlebuttonpilo {
+		font-size: 40px;
+		margin-top: 22px;
+	}
+
+	.article {
+		width: 310px;
+		height: 1316px;
+		margin-top: 140px;
+		margin-bottom: 0px;
+		margin-left: 205px;
+	}
+
+	.containerpictitle {
+		width: 189px;
+		height: 266px;
+		position: static;
+		margin-top: 25px;
+		margin-left: 30px;
+	}
+
+	.simplonimg {
+		position: relative;
+		right: 92px;
+		bottom: 14px;
+		width: 178px;
+		height: 123px;
+	}
+
+	.bluecontainer {
+		margin-left: 8px;
+		margin-top: -5px;
+		width: 164px;
+		height: 86px;
+	}
+
+	.txtarticle {
+		margin-top: -70px;
+		font-size: 23px;
+		width: 249px;
+		height: 750px;
+	}
+
+	.bot {
+		display: flex;
+		flex-flow: raw wrap;
+		width: 245px;
+		height: 1095px;
+		margin-top: 105px;
+	}
+
+	.jorgeimg {
+		width: 219px;
+		height: 294px;
+	}
+
+	.txtjorge {
+		width: 200px;
+		height: 400px;
+		position: relative;
+		top: 240px;
+		left: -200px;
+		font-weight: 400;
+		font-size: 21px;
+		text-align: center;
+	}
+
+	.buttoninfo {
+		width: 200px;
+		height: 52px;
+		position: relative;
+		left: -415px;
+		top: 975px;
+	}
+
+	.imgarrow {
+	margin-right: 34px;
+	margin-top: 3px;
+	}
+}
